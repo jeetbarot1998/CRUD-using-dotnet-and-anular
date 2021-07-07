@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\barot\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\barot\\.nuget\\packages"
+    ]
+  }
+}
