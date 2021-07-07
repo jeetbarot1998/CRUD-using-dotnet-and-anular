@@ -1,0 +1,9 @@
+<table class="table table-dark">
+  <tr *ngFor="let pd of service.list">
+    <td (click)="PopulateForm(pd)">{{ pd.Name }}</td>
+    <td (click)="PopulateForm(pd)">{{ pd.TaskName }}</td>
+    <td (click)="PopulateForm(pd)">{{ pd.TaskId }}</td>
+    <td (click)="Delete(pd.PMId)">Delete</td>
+    <br />
+  </tr>
+</table>
